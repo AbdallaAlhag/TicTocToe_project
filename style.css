@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Titan One", sans-serif;
+  font-family: "Poetsen One", sans-serif;
   /* No scrolling */
   /* overflow: hidden;
   height: 100%; */
@@ -11,7 +11,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 6fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr;
 }
 
 .container > div {
@@ -23,7 +23,7 @@ body {
 .header {
   background-color: #334155;
   border-bottom: 3px solid #020617;
-  font-size: 35px;
+  font-size: 40px;
   color: #71717a;
 }
 
@@ -47,7 +47,7 @@ body {
   background-color: #cbd5e1;
 }
 
-.footer h1{
+.footer h3{
     display: flex;
     align-items: center;
     column-gap: 5px;
@@ -62,7 +62,7 @@ body {
   border: 1px solid grey;
   background: #cbd5e1;
   cursor: pointer;
-  font-family: "Titan One", sans-serif;
+  font-family: "Poetsen One", sans-serif;
   color: #94a3b8;
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -84,7 +84,7 @@ body {
   cursor: pointer; /* Pointer cursor on hover */
   border-radius: 8px; /* Rounded corners */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
-  font-family: "Titan One", sans-serif;
+  font-family: "Poetsen One", sans-serif;
   color: #71717a;
 }
 
@@ -100,16 +100,18 @@ body {
 }
 
 .footer img {
-  height: 30px;
+  height: 20px;
 }
+
 
 #github-icon {
   border-radius: 5px;
-  height: 30px;
+  height: 20px;
   background: #e2e8f0;
   padding: 0px;
   border: none;
   background-color: #64748b;
+  cursor: pointer;
 }
 
 #github-icon:active {
